@@ -41,7 +41,8 @@
   /* This is the parent of the activity 2 boxes. */
   display: grid;
   grid-template-columns: 50px 50px 50px 50px 50px;
-  grid-template-rows: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+  padding-bottom: 100px;
 }
 .red2 {
   width: 100px; 
@@ -133,10 +134,9 @@
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  height: 400px;
 }
 .red5 { 
-  width: 100%; 
+  width: 700px; 
   height: 100px; 
   background-color: red; 
 } 
@@ -149,13 +149,13 @@
 
 } 
 .yellow5 {
-  width: 100%; 
+  width: 700px; 
   height: 270px; 
   background-color: gold; 
 
 } 
 .blue5 {
-  width: 100%; 
+  width: 700px; 
   height: 100px; 
   background-color: blue; 
 } 
