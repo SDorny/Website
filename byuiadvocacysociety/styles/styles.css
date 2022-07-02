@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr 150px;
+    grid-template-rows: 3;
+    background-color: whitesmoke;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-around;
+    grid-row: 3;
+    grid-column: 2/4;
+    margin: auto;
+}
+
+nav a:hover {
+    text-align: center;
+    background-color: #C4C4C4;
+}
+
+nav a {
+    margin: auto;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: whitesmoke;
+    padding: 25px 50px;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.oback {
+    background-color: #E3D6AC;
+}
+
+#home-one{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+    margin-top: 50px;
+ }
+
+.myfont {
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.myfont2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: smaller;
+}
+
+.home-title {
+    text-align: left;
+    line-height: 2em;
+    font-size: 40px;
+    grid-column: 1;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 200px;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home-img {
+    width: 500px;
+    height: 740px;
+    object-fit: cover;
+    grid-column: 2;
+    margin-top: 70px;
+}
+
+.himg {
+    margin-left: 700px;
+}
+
+.flogo{
+    margin-left: 50px;
+}
+
+.head{
+    display: flex;
+}
+
+.head-img {
+    margin-top: 37px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    margin-top: 50px;    
+
+}
+
+.logo_link_one{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.logo_link_two {
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.home-img {
+    grid-column: 2;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 50px;
+    background-color: whitesmoke;
+}
+
+.events {
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-bottom: 50px;
+    width: 90%;
+    margin-left: 37px;
+    margin-top: 50px;
+    max-width: 1200px;
+    
+}
+
+.event_img{
+    border: 2px solid #1A202C;
+}
+
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 1/3;
+    grid-row: 2;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.button{
+    align-items: center;
+    background: white;
+    border: 0 solid white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    color: #1A202C;
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 56px;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 24px;
+    text-decoration: none;
+    width: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
